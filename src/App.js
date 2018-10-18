@@ -16,8 +16,8 @@ class App extends Component {
               </span>
               {/* <!-- logo for regular state and mobile devices --> */}
               <span className="logo-lg">
-                <b>Admin</b>
-                LTE
+                <b>RYDE</b>
+                Admin
               </span>
             </a>
 
@@ -35,7 +35,7 @@ class App extends Component {
               {/* <!-- Navbar Right Menu --> */}
               <div className="navbar-custom-menu">
                 <ul className="nav navbar-nav">
-                  {/* <!-- Messages: style can be found in dropdown.less-->          */}
+                  {/* <!-- Messages: style can be found in dropdown.less-->*/}
                   <li className="dropdown messages-menu">
                     {/* <!-- Menu toggle button --> */}
                     <a
@@ -139,7 +139,7 @@ class App extends Component {
                                 Design some buttons
                                 <small className="pull-right">20%</small>
                               </h3>
-                              {/* <!-- The progress bar --> */}
+                              {/* <!-- The progressheaderheaderheader bar --> */}
                               <div className="progress xs">
                                 {/* <!-- Change the css width attribute to simulate progress --> */}
                                 <div
@@ -164,7 +164,7 @@ class App extends Component {
                     </ul>
                   </li>
                   {/* <!-- User Account Menu --> */}
-                  <li className="dropdown user user-menu">
+                  <li className="dropdown user usedropdown-tr-menu">
                     {/* <!-- Menu Toggle Button --> */}
                     <a
                       href="#"
@@ -175,10 +175,9 @@ class App extends Component {
                       <img
                         src="dist/img/user2-160x160.jpg"
                         className="user-image"
-                        alt="User Image"
                       />
                       {/* <!-- hidden-xs hides the username on small devices so only the image appears. --> */}
-                      <span className="hidden-xs">Alexander Pierce</span>
+                      <span className="hidden-xs">Alexander</span>
                     </a>
                     <ul className="dropdown-menu">
                       {/* <!-- The user image in the menu --> */}
@@ -196,7 +195,7 @@ class App extends Component {
                       </li>
                       {/* <!-- Menu Body --> */}
                       <li className="user-body">
-                        <div className="row">
+                        {/* <div className="row">
                           <div className="col-xs-4 text-center">
                             <a href="#">Followers</a>
                           </div>
@@ -225,11 +224,11 @@ class App extends Component {
                     </ul>
                   </li>
                   {/* <!-- Control Sidebar Toggle Button --> */}
-                  <li>
+                  {/*<li>
                     <a href="#" data-toggle="control-sidebar">
                       <i className="fa fa-gears" />
                     </a>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </nav>
@@ -248,10 +247,10 @@ class App extends Component {
                   />
                 </div>
                 <div className="pull-left info">
-                  <p>Alexander Pierce</p>
+                  <p>Alexander</p>
                   {/* <!-- Status --> */}
                   <a href="#">
-                    <i className="fa fa-circle text-success" /> Online
+                    <i className="fa fa-circle text-success" /> "Online"
                   </a>
                 </div>
               </div>
@@ -281,33 +280,176 @@ class App extends Component {
 
               {/* <!-- Sidebar Menu --> */}
               <ul className="sidebar-menu" data-widget="tree">
-                <li className="header">HEADER</li>
+                <li className="header">MAIN NAVIGATION</li>
                 {/* <!-- Optionally, you can add icons to the links --> */}
                 <li className="active">
                   <a href="#">
-                    <i className="fa fa-link" /> <span>Link</span>
+                    <i className="fa fa-dashboard" /> <span>DASHBOARD</span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fa fa-link" /> <span>Another Link</span>
+                    <i className="fa fa-book" /> <span>USERS</span>
                   </a>
                 </li>
-                <li className="treeview">
+                <li>
                   <a href="#">
-                    <i className="fa fa-link" /> <span>Multilevel</span>
-                    <span className="pull-right-container">
-                      <i className="fa fa-angle-left pull-right" />
-                    </span>
+                    <i className="fa fa-book" /> <span>CAR FEATURES</span>
                   </a>
-                  <ul className="treeview-menu">
-                    <li>
-                      <a href="#">Link in level 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Link in level 2</a>
-                    </li>
-                  </ul>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />{" "}
+                    <span>FEREE DELIVEYRY LOCATION</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>CARS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>BOOKINGS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>BOOKINGS CHANGES</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>COUPONS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>TRANSACTIONS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>EMAIL LIST</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>EMAIL (sent)</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>CAMPAIGNS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />{" "}
+                    <span>REGESTRATION PROMOTION</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>PROMOTIONS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>PARKING LOTS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />{" "}
+                    <span>FREE DELIVERY LOCATIONS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>CAR EDIT LOGS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>TIERS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>CAR PROTECTION LEVELS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>CAR INSURANCES</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>CREDIT CARDS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" /> <span>EXTRA CHARGES</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>REFERRALS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>REFERRAL CODES</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>CONFIGURATIONS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>TRANSACTION RULES</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>PAYMENT GATEWAY</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-book" />
+                    <span>COMPANY TARGETS</span>
+                  </a>
+                </li>
+                <li className="header">LABELS</li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-circle-o text-red" />
+                    <span>ADMINS</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-circle-o text-green" />
+                    <span>Reports</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fa fa-circle-o text-blue" />
+                    <span>Message Box</span>
+                  </a>
                 </li>
               </ul>
               {/* <!-- /.sidebar-menu --> */}
@@ -449,5 +591,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
